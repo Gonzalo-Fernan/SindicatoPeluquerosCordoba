@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sindicato de Peluqueros</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="icon" href="img/LogoSindicatoPeluqueros.png"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+    <body>
+
+
+      <!-- menu offcanvas ------>
+      <article class="menu active" id="menu">
+        <div class="menuHead">
+          <p>Menú</p>
+        </div>
+        <ul>
+          <li><button class="botonOffCanvas" onclick="hide()"><a href="#convenios">Convenios</a></button></li>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="#escalas">Escalas Salariales</a></button></li>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="#inscrpcion">Inscripción</a></button>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="#preguntas">Preguntas Frecuentes</a></button>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="#contacto">Contacto</a></button>
+        </ul>
+        <button class="cerrar" id="cerrar">Cerrar</button>
+
+      </article> 
+
+      <!----------- NAVBAR --------------->
+      
+      <main id="main">
+      <nav class="navConteiner">
+        <div class="logoConteiner">
+          <img class="logo" src="img/LogoSindicatoPeluqueros.png" alt="">
+          <h1>Sindicato de Peluqueros <br> y Peinadores Córdoba</h1>
+        </div>
+        <ul class="linkList">
+          <li><a href="#convenios">Convenios</a></li>
+          <li><a href="#escalas">Escalas Salariales</a></li>
+          <li><a href="#inscripcion">Incripción</a></li>
+          <li><a href="#afiliacion">Preguntas Frecuentes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="botonMenu" id="botonMenu">Menú</button>
+
+      </nav>
+
+       
+
+       <!-----------  MAIN SECTION --------------->
+
+      <section class="mainSection">
+
+         <!----------- HISTORIA --------------->
+
+        <article class="historiaConteiner">
+            <h2 class="historiaTitulo">Historia</h2>    
+            <div class="historia">
+              <img class="historiaImg" src="../img/edificioTest.jpeg" alt="">
+              <p class="historiaDescripcion">El Sindicato de Peluqueros y Peinadores de la provincia de Córdoba se constituyó un 13 de abril de 1945 agrupando a los trabajadores y a las trabajadoras del personal no jerarquizado de peluquerías de damas y caballeros, salones o institutos de estéticas y academias de peinados. En aquel momento se encontraba en la calle Rosario de Santa Fe Nº 231 Piso 8 de la Ciudad de Córdoba, abarcando como zona de actuación todo el territorio de la Provincia de Córdoba. Actualmente se ubica en la calle Santiago del estero Nº 34 en el centro de la ciudad de Córdoba.</p>
+            </div>
+          <article class="wave"></article>
+        </article>
+
+         <!----------- CONVENIOS --------------->
+      </section>
+      <section class="mainSection">
+        <article class="coveniosConteiner" id="convenios">
+          <div class="convenioTituloConteiner">
+            <img class="conveniosImg" src="img/convenio.png" alt="">
+            <h3 class="conveniosTitulo">Convenios</h3>
+          </div>
+          <div class="convenio">
+            <p>Convenio del año en curso</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, cumque quasi nostrum ex Consectetur, eos tenetur.</p>
+            <button><a target="_blank" href="docs/convenciones/Convencion-Colectiva-de-Trabajo-Nro-734-15.pdf">Abrir Convenio 2024...</a></button>
+          </div>
+        </article>
+
+         <!----------- ESCALAS SALARIALES --------------->
+
+        <article class="escalaSalarialConteiner" id="escalas">
+            <img src="img/cuenta-por-cobrar.png" alt="">
+            <h3 class="escalaSalarialTitulo">Escalas Salariales</h3>
+            <p>Concozca los valores y descargue las escalas salariales en formato pdf</p>
+            <button><a target="_blank" href="docs/escalaSalarial/Escala Salarial Convenio Colectivo de Trabajo 7342015 mayo 2024.pdf">Abrir Escalas Salariales 2024...</a></button>
+        </article>
+
+         <!----------- INSCRIPCION AFILIACION --------------->
+
+        <article class="inscripcionConteiner" id="inscripcion">
+          <img src="img/contrato.png" alt="">
+          <h3 class="inscripcionTitulo">Inscripción/Afiliación</h3>
+          <button><a target="_blank" href="docs/inscripcion-afiliacion/FORMULARIO INSCRIPCION EMPRESA.pdf">Formulario Inscripción Empresa</a></button>
+          <button><a target="_blank" href="docs/inscripcion-afiliacion/Requisitos Afiliación Obra Social.pdf">Requisitos Afiliación Obra Social</a></button>
+          <button><a target="_blank" href="docs/inscripcion-afiliacion/Requisitos afiliacion sindicato.pdf">Requisitos Afiliación Sindicato</a></button>
+          <button><a target="_blank" href="docs/inscripcion-afiliacion/REQUISITOS INSCRIPCION EMPRESA.pdf">Requisitos Incripción Empresa</a></button>
+          <article class="wave" id="wave2"></article>
+        </article>
+      </section>
+
+
+          <!-----------    CONTACTO  --------------->
+      <section class="contactoConteiner">
+        <article class="contacto" id="contacto">
+          <h4>CONTACTO</h4>
+          <hr>
+          <div class="ubicacion">
+            <img class="edificio" src="img/edifiicioSindicatoModificado.jpg" alt="">
+            <div class="mapa">
+              <p>Encontranos en nuestra oficina en el centro</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1702.4394527501147!2d-64.17781931716422!3d-31.417462281829746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29960ae615d%3A0xf5727b13d68050d4!2sSantiago%20del%20Estero%2038!5e0!3m2!1ses!2sar!4v1720192017363!5m2!1ses!2sar"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="whatsappConteiner">
+                <img class="whatsapp" src="img/whatsapp.png" alt="">
+                <p>351-35413541</p>
+
+              </div>
+              <div class="pinConteiner">
+                <img class="pin" src="img/marcador-de-posicion.png" alt="">
+                <p>Santiago del Estero 38, Córdoba</p> 
+              </div>
+            </div>
+          </div>
+
+        </article>
+
+      </section >
+      </main>
+      <footer>
+
+
+      </footer>
+        
+
+
+
+        <script src="JS/index.js"></script>
+    </body>
+</html>
