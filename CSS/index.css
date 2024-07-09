@@ -227,6 +227,13 @@ html{
     align-items: center;
     justify-content: center;
     gap: 30px;
+    hr{
+        height: 3px;
+        background: rgb(255, 255, 255);
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 30%;
+    }
     
    
 }
@@ -279,6 +286,7 @@ html{
         font-size: 17px;
     }
 }
+
 
 /********* ESCALAS SALARIALES *********************************************/
 
@@ -353,6 +361,7 @@ html{
         &:hover{
             transform: scale(1.1);
         }
+       
     }
     button a {
         text-decoration: none;
@@ -363,6 +372,13 @@ html{
         width: 70px;
         height: 70px;
         filter: invert(100%);
+    }
+    p{
+        color: white;
+        width: 50%;
+        text-align: center;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 .inscripcionTitulo{
@@ -547,6 +563,9 @@ html{
    }
    .coveniosConteiner{
     padding-top: 50px;
+    p{
+        width: 80%;
+    }
    }
    .conveniosTitulo{
     margin: 0;
@@ -577,6 +596,9 @@ html{
     .inscripcionConteiner{
         margin: 0;
         padding: 50px;
+        p{
+            width: 80%;
+        }
     }
     #wave2{
         width: 114%;
@@ -615,12 +637,14 @@ html{
     }
     .coveniosConteiner{
         padding: 50px;
+       
     }
     .escalaSalarialConteiner{
         padding: 50px;
     }
     .inscripcionConteiner{
         padding: 50px;
+      
     }
     #wave2{
         width: 120%;
@@ -639,6 +663,18 @@ html{
     }
     #wave2{
         width: 125%;
+    }
+    .coveniosConteiner{
+        p{
+            width: 90%;
+            font-size: 16px;
+        }
+    }
+    .inscripcionConteiner{
+        p{
+            width: 90%;
+            font-size: 16px;
+        }
     }
 
 
