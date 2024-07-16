@@ -196,7 +196,7 @@ html{
 .historiaImg{
     width: 500px;
     height: 500px;
-    border-radius: 80%;
+    border-radius: 80%; 
 }
 .wave {
     /* overflow: hidden; */
@@ -386,8 +386,79 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
+
+/********* PREGUNTAS FRECUENTES *********************************************/
+
+.preguntasConteiner{
+    max-width: 1200px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 200px;
+    background-color: #00080a;
+    h4{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+        filter: invert(100%);
+    }
+}
+.preguntasInnerConteiner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   
+
+    
+}
+.preguntasCard{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+} 
+.pregunta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #093050;
+    border-radius: 15px 15px 0px 0px;
+}
+.respuesta{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #216677;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+
+
+
+
+
+
+
 /********* CONTACTO *********************************************/
 .contactoConteiner{
+    padding-top: 100px;
     width: 100%;
     height: fit-content;
     background-color: #000000;
@@ -411,6 +482,7 @@ html{
         font-size: 40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-bottom: -15px;
+        padding-top: 100px;
     }
     hr { 
         width: 30%;
@@ -657,9 +729,18 @@ html{
         width: 80%;
         font-size: 20px;
     }
+    .historiaConteiner{
+        align-items: center;
+        justify-content: center;
+    }
     .historiaImg{
         width: 350px;
         height: 350px;
+    }
+    .historiaDescripcion{
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
     }
     #wave2{
         width: 125%;
