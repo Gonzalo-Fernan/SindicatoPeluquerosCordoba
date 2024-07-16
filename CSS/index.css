@@ -696,6 +696,9 @@ html{
     #wave2{
         width: 118%;
     }
+    .preguntasInnerConteiner{
+        gap: 15px;   
+    }
     
  }
  @media screen and (max-width: 600px){
