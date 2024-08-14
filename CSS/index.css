@@ -56,7 +56,7 @@ html{
     align-items: center;
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    li{
+    a li{
         transition: 0.2s;
         border-radius: 15px;
         padding: 8px;
@@ -67,7 +67,7 @@ html{
        border-radius: 15px;
        padding: 8px;
     }
-    li a{
+    a{
         text-decoration: none;
         color: white;
         font-size: 18px;
@@ -179,6 +179,9 @@ html{
     color: white;
  
 }
+.textoConteiner{
+    width: 50%;
+}
 .historiaTitulo{
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -189,18 +192,20 @@ html{
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin-bottom: -150px;
+    margin-bottom: -100px;
 }
 .historiaDescripcion{
-    width: 50%;
+    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 .historiaImg{
+    margin-top: 50px;
     width: 500px;
     height: 500px;
     border-radius: 80%; 
 }
+
 .wave {
     /* overflow: hidden; */
     width: 100%;
@@ -217,9 +222,20 @@ html{
   
 }
 
+
 /********* CONVENIOS *********************************************/
 
-
+.quienesSomos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: -100px;
+    font-size: 20px;
+    color: white;
+    
+}
 .coveniosConteiner{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -419,13 +435,13 @@ html{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
    
 
     
 }
 .preguntasCard{
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -439,17 +455,23 @@ html{
     justify-content: center;
     width: 100%;
     height: 100px;
-    background-color: #093050;
+    /* background-color: #093050; */
+    background: linear-gradient(#1dcffc, #022038);
     border-radius: 15px 15px 0px 0px;
+    h5{
+        color: #ffffff;
+    }
 }
 .respuesta{
+    height: 300px;
     padding: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     width: 100%;
-    background-color: #216677;
+    background-color: #0a3b47;
     border-radius: 0px 0px 15px 15px;
+    font-size: 16px;
 }
 
 
@@ -538,6 +560,15 @@ html{
     height: 30px;
 }
 .pin{
+    width: 30px;
+    height: 30px;
+}
+.mailConteiner{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.mail{
     width: 30px;
     height: 30px;
 }
