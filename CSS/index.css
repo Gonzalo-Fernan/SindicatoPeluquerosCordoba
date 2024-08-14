@@ -595,9 +595,6 @@ html{
    .historiaDescripcion{
     padding-right: 30px;
    }
-   .historiaImg{
-    object-fit: cover;
-   }
 }
 @media screen and (max-width: 1100px){
     .historiaTitulo{
@@ -617,6 +614,13 @@ html{
     .escalaSalarialConteiner p{
         width: 80%;
     }
+    .pregunta{
+        padding: 15px;
+    }
+    .respuesta{
+        height: 400px;
+    }
+    
  }
  @media screen and (max-width: 950px){
     .logoConteiner{
@@ -627,6 +631,9 @@ html{
         li a{
             font-size: 16px;
         }
+    }
+    .textoConteiner{
+        width: 70%;
     }
     .historia{
         margin-top: 30px;
@@ -639,7 +646,8 @@ html{
         height: 500px;
     }
     .historiaDescripcion{
-        width: 70%;
+        width: 100%;
+        padding: 0;
     }
     .edificio{
         width: 300px;
@@ -651,9 +659,17 @@ html{
             height: 200px;
         }
     }
-   
+    .preguntasCard{
+            width: 40%;
+        }
+    
 }
  @media screen and (max-width: 800px){/*Aca empieza en menu hamburguesa*/
+    .quienesSomos{
+        margin-top: 0;
+        width: 90%;
+        margin-bottom: 50px;
+    }
     .botonMenu{
         position: fixed;
         right: 10px;
@@ -733,11 +749,31 @@ html{
         width: 118%;
     }
     .preguntasInnerConteiner{
-        gap: 15px;   
+        flex-direction: column;
+        .preguntasCard{
+            width: 80%;
+            .respuesta{
+                height: fit-content;
+            }
+        }
     }
+
     
  }
  @media screen and (max-width: 600px){
+    .historiaDescripcion{
+        font-size: 16px;
+        width: 100%;
+    }
+    .coveniosConteiner{
+        padding: 5px;
+    }
+    .quienesSomos{
+        font-size: 16px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
     .logoConteiner {
         display: flex;
         justify-content: center;
@@ -746,15 +782,15 @@ html{
             font-size: 25px;
         }
     }
-    .coveniosConteiner{
-        padding: 50px;
-       
-    }
+   
     .escalaSalarialConteiner{
         padding: 50px;
     }
     .inscripcionConteiner{
         padding: 50px;
+        p{
+            font-size: 16px;
+        }
       
     }
     #wave2{
