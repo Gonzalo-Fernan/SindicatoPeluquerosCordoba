@@ -406,6 +406,24 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
+.beneficiosTitulo{
+    margin-top: 80px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+.beneficiosLista{
+    color: white;
+    font-size: 20px;
+}
+.obraSocialTitulo{
+    margin-top: 80px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
 
 /********* PREGUNTAS FRECUENTES *********************************************/
 
