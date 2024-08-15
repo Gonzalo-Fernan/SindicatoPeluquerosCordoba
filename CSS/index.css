@@ -825,22 +825,35 @@ html{
     .historiaConteiner{
         align-items: center;
         justify-content: center;
+        text-align: center;
+    }
+    .historiaTitulo{
+        padding: 0;
+        margin-bottom: 30px;
     }
     .historiaImg{
+        padding: 0;
         width: 350px;
         height: 350px;
     }
     .historiaDescripcion{
-        font-size: 18px;
-        width: 90%;
+        padding: 0;
+        font-size: 16px;
+        width: 100%;
         text-align: center;
+    }
+    .quienesSomos{
+        p{
+            text-align: center;
+            margin-bottom: 150px;
+        }
     }
     #wave2{
         width: 125%;
     }
     .coveniosConteiner{
         p{
-            width: 90%;
+            width: 95%;
             font-size: 16px;
         }
     }
