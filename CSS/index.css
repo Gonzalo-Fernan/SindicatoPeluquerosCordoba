@@ -482,7 +482,8 @@ html{
     width: 100%;
     height: 100px;
     /* background-color: #093050; */
-    background: linear-gradient(#1dcffc, #022038);
+    /*background: linear-gradient(#1dcffc, #022038);*/
+    background: linear-gradient(#074858, #011216 );
     border-radius: 15px 15px 0px 0px;
     h5{
         color: #ffffff;
