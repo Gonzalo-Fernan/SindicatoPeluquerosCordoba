@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/empleadores.css">
+</head>
+<body>
+    <!-- menu offcanvas ------>
+    <article class="menu active" id="menu">
+        <div class="menuHead">
+          <p>Menú</p>
+        </div>
+        <ul>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="index.html#convenios">Convenios</a></button></li>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="index.html#escalas">Escalas Salariales</a></button></li>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="afiliados.html">Afiliadas/os</a></button>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="empleadores.html">Empleadores</a></button>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="index.html#preguntas">Preguntas Frecuentes</a></button>
+          <li><button class="botonOffCanvas" onclick=hide()><a href="index.html#contacto">Contacto</a></button>
+        </ul>
+        <button class="cerrar" id="cerrar">Cerrar</button>
+
+      </article> 
+
+      <!----------- NAVBAR --------------->
+      
+      <main id="main">
+      <nav class="navConteiner">
+        <div class="logoConteiner">
+          <img class="logo" src="img/LogoSindicatoPeluqueros.png" alt="">
+          <h1>Sindicato de Peluqueros <br> y Peinadores Córdoba</h1>
+        </div>
+        <ul class="linkList">
+          <a href="index.html#convenios"><li>Convenios</li></a>
+          <a href="index.html#escalas"><li>Escalas Salariales</li></a>
+          <a href="afiliados.html"><li>Afiliadas/os</li></a>
+          <a href="empleadores.html"><li>Empleadores</li></a>
+          <a href="index.html#preguntas"><li>Preguntas Frecuentes</li></a>
+          <a href="index.html#contacto"><li>Contacto</li></a>
+        </ul>
+        <button class="botonMenu" id="botonMenu">Menú</button>
+
+      </nav>
+
+      <section class="mainSection" >
+        <article class="mainConteinerEmpleadores" >
+          <h2>Empleadores</h2>
+          <p>Para gozar de los beneficios del Sindicato, las trabajadoras o los trabajadores, deberán estar en relación de dependencia dados de alta correctamente en el sistema, es decir que deben estar registrados.</p>
+          <p>Los descuentos por Aporte Solidario o Cuota Sindical son del 1.80 % del mínimo garantizado y tienen carácter obligatorio. </p>
+          <p>Para activar la afiliación, es fundamental que la empresa donde presta sus servicios el interesado este EMPADRONADA en el Sindicato.</p>
+          <button><a target="_blank" href="docs/inscripcion-afiliacion/REQUISITOS INSCRIPCION EMPRESA.pdf">Requisitos Incripción Empresa</a></button>
+          <button><a target="_blank" href="docs/inscripcion-afiliacion/FORMULARIO INSCRIPCION EMPRESA.pdf">Formulario Inscripción Empresa</a></button>
+        </article>
+       
+      </section>
+
+    <script src="JS/index.js"></script>
+</body>
+</html>
