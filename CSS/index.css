@@ -459,6 +459,7 @@ html{
 .preguntasInnerConteiner{
     margin-left: 10%;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     align-items: start;
     justify-items: center;
@@ -474,6 +475,7 @@ html{
     justify-content: center;
     border: none;
     border-radius: 20px;
+    margin-bottom: 50px;
 } 
 .pregunta{
     display: flex;
