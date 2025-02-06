@@ -457,14 +457,14 @@ html{
     }
 }
 .preguntasInnerConteiner{
+    margin-left: 10%;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
+    width: 100%;
+    align-items: start;
+    justify-items: center;
+    gap: 10%;
    
-
-    
+      
 }
 .preguntasCard{
     width: 40%;
@@ -490,7 +490,7 @@ html{
     }
 }
 .respuesta{
-    height: 400px;
+    height: fit-content;
     padding: 10px;
     display: flex;
     align-items: start;
@@ -624,7 +624,7 @@ html{
     padding-right: 30px;
    }
    .respuesta{
-    height: 430px;
+    height: fit-content;
    }
 }
 @media screen and (max-width: 1100px){
@@ -648,10 +648,7 @@ html{
     .pregunta{
         padding: 15px;
     }
-    .respuesta{
-        height: 520px;
-    }
-    
+  
  }
  @media screen and (max-width: 950px){
     .logoConteiner{
